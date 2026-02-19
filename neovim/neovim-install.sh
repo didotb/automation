@@ -3,7 +3,8 @@
 archivename=neovim-$(uname -i).tar.gz
 
 # Install pre-requisites
-apt install git npm unzip gcc make ripgrep tree-sitter-cli
+apt update
+apt install git npm unzip gcc make ripgrep tree-sitter-cli -y
 
 # Download latest neovim
 wget -O $archivename https://github.com/neovim/neovim/releases/latest/download/nvim-linux-$(uname -i).tar.gz
