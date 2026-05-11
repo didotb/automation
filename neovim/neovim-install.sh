@@ -1,6 +1,6 @@
 #!/bin/bash
 
-archivename=neovim-$(uname -i).tar.gz
+archivename=neovim-$(uname -m).tar.gz
 
 # Install pre-requisites
 sudo apt update
